@@ -2,6 +2,8 @@
 Private bot Moderation, Roleplay,Economy, and fun.
 ![image](https://media.discordapp.net/attachments/886920626919604274/899789576837685299/images1.jpg)
 
+
+
 ## Installation
 Befor installation process, you need to fill your data on pinokio.js, pinokio.json, owner.json.
 Dont forget to fill your bot token in dotenv.
