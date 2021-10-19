@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 const nekos = require("nekos.life");
-const colors = require('../../colors.json')
+const colors = require('../../Daisy/colors.json')
 const {
   sfw: { slap },
 } = new nekos();
