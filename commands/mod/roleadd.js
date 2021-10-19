@@ -1,5 +1,5 @@
 const { MessageEmbed } = require("discord.js");
-const { ownerID } = require("../../owner.json")
+const { ownerID } = require("../../Daisy/owner.json")
 module.exports = {
   config: {
     name: "roleadd",
