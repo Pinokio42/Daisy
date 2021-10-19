@@ -1,4 +1,4 @@
-const { OWNER_ID } = require("../../config");
+const { OWNER_ID } = require("../../Chief/pinokio.");
 
 module.exports = {
     config: {
