@@ -1,4 +1,4 @@
-const { OWNER_ID } = require("../../Chief/pinokio.");
+const { OWNER_ID } = require("../../Chief/pinokio.js");
 
 module.exports = {
     config: {
