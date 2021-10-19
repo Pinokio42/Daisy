@@ -1,27 +1,27 @@
 require("dotenv").config();
 console.log("Hi, Dear! Iam alive");
-//Defining dependencies
+//Dependencies
 const { Client, Collection } = require('discord.js');
 const { PREFIX } = require('./Chief/pinokio.js');
 const discord = require("discord.js");
 const moment = require("moment");
 const ms = require('ms');
 const pms = require('pretty-ms');
-const { LeftImage, JoinImage } = require("./config.json");
+const { LeftImage, JoinImage } = require("./General/daisy.json");
 const canvas = require ("discord-canvas");
 const Canvas = require("canvas");
 const Discord = require("discord.js");
 const { MessageEmbed } = require("discord.js");
 const format = require(`humanize-duration`);
 const fetch = require("node-fetch");
-const config = require("./config.json");
+const config = require("./Daisy/daisy.json");
 const wb = require("quick.db");
 const bot = new Client({ disableMentions: 'everyone',
   partials: ["MESSAGE", "CHANNEL", "REACTION"]
 });
 const fs = require("fs");
 const db = require('old-wio.db');
-const emojis = require("./emojis.json");
+const emojis = require("./Daisy/emojis.json");
 
 bot.commands = new Collection();
 bot.aliases = new Collection();
