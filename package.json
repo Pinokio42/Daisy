@@ -1,5 +1,5 @@
 {
-  "name": "shyro",
+  "name": "daisy",
   "version": "1.0.0",
   "description": "Just for fun",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "comingsoon"
+    "url": "https://github.com/Pinokio42/Daisy.git"
   },
   "keywords": [
     "Bot"
