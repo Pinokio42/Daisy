@@ -11,7 +11,9 @@ module.exports = {
   run: async (client, message, args) => {
 
 
-    if(!message.member.hasPermission("ADMINISTRATOR")) return message.channel.send(":x: You need `MANAGE_MESSAGES` perms to use this command")
+    if(!message.member.hasPermission("ADMINISTRATOR")) return
+    let NHPEmbed = 
+    message.channel.send(":x: You need `MANAGE_MESSAGES` perms to use this command")
 
     let cmdname = args[0];
 
