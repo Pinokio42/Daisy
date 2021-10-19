@@ -7,3 +7,5 @@
   category: "admin",
   },
   run: async (bot, message, args) => {
+   }
+  }
