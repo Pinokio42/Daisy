@@ -88,7 +88,7 @@ const mentionRegex = RegExp(`^<@!?${bot.user.id}>$`);
     message.channel.send(
       new Discord.MessageEmbed()
       .setThumbnail(`${message.author.displayAvatarURL({ dynamic: true })}`)
-      .setDescription(`Hey <@${message.author.id}>, My prefix for this guild is \`\`\`${Prefix}\`\`\`.Use \`\`\`${Prefix}help\`\`\` or <@${bot.user.id}> help to get a list of commands`)
+      .setDescription(`Hey <@${message.author.id}>, Prefix is \`\`\`${Prefix}\`\`\` for this guild.Use \`\`\`${Prefix}help\`\`\` or <@${bot.user.id}> help to get a list of commands`)
        .setColor("RANDOM")
        .setFooter(`Requested by ${message.author.username}`)
        .setTimestamp()
