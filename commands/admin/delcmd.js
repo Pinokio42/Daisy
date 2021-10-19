@@ -4,7 +4,7 @@ module.exports = {
   config: {
   name: "delcmd",
   aliases: ["dcmd"],
-  usage: "delcmd <cmd_name>",
+  usage: "<cmd_name>",
   description: "Delete the custom commannd",
   category: "admin",
   },
