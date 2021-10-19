@@ -1,7 +1,7 @@
-const fishes = require('../../JSON/fishes.json');
+const fishes = require('../../Game/fishes.json');
 let db = require('quick.db');
 const ms = require("parse-ms");
-const { randomRange } = require('../../fisher');
+const { randomRange } = require('../../Chief/fisher');
 const { MessageEmbed } = require('discord.js');
 
 module.exports = {
