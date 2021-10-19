@@ -44,12 +44,12 @@ bot.games = new Map();
    const app = express();
    const port = 5555;
 
-app.get('/', (req, res) => res.send('Hey there!'))
+app.get('/', (req, res) => res.send('Here we go!'))
 
 app.listen(port, () =>
-console.log(`Your app is listening a http://localhost:${port}`)
+console.log(`Iam listening on http://localhost:${port}`)
 );
-	console.log(`[INFO]: Ready on client (${bot.user.tag})`);
+	console.log(`[INFO]: Client: (${bot.user.tag}) is ready`);
 	console.log(
 		`[INFO]: watching ${bot.guilds.cache.size} Servers, ${
 			bot.channels.cache.size
