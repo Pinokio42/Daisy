@@ -1,21 +1,21 @@
 {
 	"junk": {
-		"symbol": "🔧",
+		"symbol": "🩴",
 		"max": 30,
 		"min": 10
 	},
 	"common": {
-		"symbol": "🐟",
+		"symbol": "🐡",
 		"max": 70,
 		"min": 30
 	},
 	"uncommon": {
-		"symbol": "🐠",
+		"symbol": "🐢",
 		"max": 90,
 		"min": 50
 	},
 	"rare": {
-		"symbol": "🦑",
+		"symbol": "🐙",
 		"max": 175,
 		"min": 130
 	}, 
