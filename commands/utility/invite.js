@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const db = require("old-wio.db");
-const { Owner_Name } = require("../../config");
-const { support } = require("../../config.json");
+const { Owner_Name } = require("../../Chief/pinokio.js");
+const { support } = require("../../Daisy/daisy.json");
 
 module.exports = {
   config: {
