@@ -1,6 +1,6 @@
 const { MessageEmbed } = require('discord.js');
 const db = require('old-wio.db');
-const { ownerID } = require("../../owner.json");
+const { ownerID } = require("../../Daisy/owner.json");
 
 module.exports = {
     config: {
