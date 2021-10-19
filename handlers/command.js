@@ -9,6 +9,6 @@ module.exports = (bot) => {
             if (pull.config.aliases) pull.config.aliases.forEach(cmd => bot.aliases.set(cmd, pull.config.name));
         };
     };
-    ["admin", "utility", "owner", "mod","info", "roleplay", "nsfw", "ai-chat", "economy"].forEach(cmd => load(cmd));
+    ["admin", "utility", "owner", "mod","info", "roleplay", "nsfw", "economy"].forEach(cmd => load(cmd));
 
 };
