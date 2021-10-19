@@ -1,6 +1,6 @@
 const { MessageEmbed } = require('discord.js');
 const db = require('quick.db');
-const { default_prefix } = require('../../config.js')
+const { default_prefix } = require('../../Chief/pinokio.js')
 
 module.exports = {
   config: {
