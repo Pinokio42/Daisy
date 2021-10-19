@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const config = require('../../Chief/.js');
+const config = require('../../Chief/pinokio.js');
 const beautify = require('beautify');
 
 module.exports = {
