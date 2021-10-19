@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const { OWNER_ID } = require("../../config");
+const { OWNER_ID } = require("../../Chief/pinokio.js");
 
 module.exports = {
   config: {
