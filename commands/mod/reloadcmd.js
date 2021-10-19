@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 const { readdirSync } = require("fs");
-const { OWNER_ID } = require("../../config");
+const { OWNER_ID } = require("../../Chief/pinokio.js");
 const { MessageEmbed } = require("discord.js");
 
 module.exports = {
