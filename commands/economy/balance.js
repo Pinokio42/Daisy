@@ -4,7 +4,7 @@ const db = require("quick.db");
 module.exports = {
   config: {
     name: "balance",
-    aliases: ["bal"], //Made by Atreya YT#0513
+    aliases: ["bal"],
     category: "economy",
     description: "Shows Current Balance",
     usage: "[username | nickname | mention | ID](optional)",
