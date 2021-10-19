@@ -1,13 +1,13 @@
 const db = require('old-wio.db');
 const { MessageEmbed } = require('discord.js');
-const { PREFIX } = require('../../config.js');
+const { PREFIX } = require('../../Chief/pinokio.js');
 
 module.exports = {
 	config: {
 		name: 'prefix',
 		category: 'admin',
 		description: "Change/Know The server's Prefix or the Global Prefix",
-		usage: '!prefix <new prefix/reset>',
+		usage: '<new prefix/reset>',
 		example: '1) !prefix = \n2) !prefix reset',
 		aliases: ['sp']
 	},
