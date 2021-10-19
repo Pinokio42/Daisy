@@ -1,4 +1,5 @@
 const db = require("quick.db");
+const { MessageEmbed } = require('discord.js');
 
 module.exports = {
   config: {
@@ -8,12 +9,14 @@ module.exports = {
   description: "Add guild custom commands",
   category: "admin",
   },
-  run: async (client, message, args) => {
+  run: async (bot, message, args) => {
 
 
     if(!message.member.hasPermission("ADMINISTRATOR")) return
-    let NHPEmbed = 
-    message.channel.send(":x: You need `MANAGE_MESSAGES` perms to use this command")
+    let NHPEmbed = new MessageEmbed()
+        .setColor('RANDOM')
+        .setDescription('***You need*** _MANAGE MESSAGES_ ***at your role for do that.***');
+    message.channel.reply(NHPEmbed);
 
     let cmdname = args[0];
 
