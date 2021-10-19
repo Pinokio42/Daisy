@@ -1,7 +1,7 @@
 const db = require('quick.db')
 const { MessageEmbed } = require('discord.js')
 const ms = require("parse-ms");
-const Jwork = require('../../JSON/works.json');
+const Jwork = require('../../Game/works.json');
 const JworkR = Jwork[Math.floor(Math.random() * Jwork.length)];
 
 module.exports = {
