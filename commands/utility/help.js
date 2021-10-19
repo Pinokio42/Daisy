@@ -1,9 +1,9 @@
 const Discord = require('discord.js')
 const fs = require("fs");
-const { PREFIX } = require("../../config.js");
+const { PREFIX } = require("../../Chief/pinokio.js");
 const db = require('old-wio.db');
 const { stripIndents } = require("common-tags");
-const { support } = require("../../config.json");
+const { support } = require("../../Daisy/daisy.json");
 
 module.exports = {
 config: {
